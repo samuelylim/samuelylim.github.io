@@ -122,6 +122,17 @@ body {
   );
 }
 
+#resumeContent {
+  height: 2000px;
+  background: linear-gradient(
+    180deg,
+    #007ed9 0%,
+    #005c9e 32.47%,
+    #002947 53.82%,
+    #002947 100%
+  );
+}
+
 #decorativeText {
   width: 60%;
   height: 220px;
@@ -378,4 +389,67 @@ body {
   position: absolute;
   top: 360px;
   right: 40px;
+}
+
+#resumePopup {
+  width: 100%;
+  position: absolute;
+  bottom: -50px;
+  background-color: white;
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+
+#hidePopup {
+  position: absolute;
+  right: 10px;
+  top: 70px;
+  z-index: 20;
+  display: none;
+}
+
+#hidePopupLabel {
+  position: absolute;
+  right: 13px;
+  top: 5px;
+  font-size: 25px;
+  z-index: 21;
+  cursor: pointer;
+}
+
+#hidePopup:checked + #resumePopup {
+  display: none;
+}
+
+#hidePopup:checked + #hidePopupLabel {
+  display: none;
+}
+
+#popupText {
+  color: black;
+  font-family: Karla;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin: 10px;
+}
+
+#downloadResume {
+  border-radius: 6px;
+  border: 2px solid black;
+  background: #3e3e3e;
+  width: 150px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-family: Fira Code;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-decoration: none;
 }
