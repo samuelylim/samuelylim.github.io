@@ -361,7 +361,7 @@ body {
   margin-top: -180px;
 }
 
-.projectPageSubheader {
+.pageSubheader {
   margin-left: 20px;
   color: #fff;
   font-family: Akshar;
@@ -371,7 +371,7 @@ body {
   line-height: normal;
 }
 
-.projectPageText {
+.pageText {
   margin-top: -30px;
   margin-bottom: 20px;
   color: #fff;
@@ -452,4 +452,40 @@ body {
   font-weight: 700;
   line-height: normal;
   text-decoration: none;
+}
+
+.resumePageImage {
+  width: 270px;
+  position: absolute;
+  top: 160px;
+  right: 60px;
+}
+
+.resumeTable{
+    
+    border:3px solid #B9B9B9;
+    border-collapse: collapse;
+    margin-left: 20px;
+    width:800px;
+}
+
+.resumeTableCell{
+    border:2px solid #B9B9B9;
+    color: #FFF;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 130%; /* 26px */    
+}
+
+.resumeTableHeader{
+    border:2px solid #B9B9B9;
+    color: #FFF;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 130%; /* 26px */
+min-width: 80px;
 }
