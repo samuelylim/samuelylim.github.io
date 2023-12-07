@@ -102,13 +102,7 @@ body {
 
 #projectsContent {
   height: 95%;
-  background: linear-gradient(
-    180deg,
-    #007ed9 0%,
-    #005c9e 32.47%,
-    #002947 53.82%,
-    #002947 100%
-  );
+  background: linear-gradient(180deg, #007ED9 0%, #005C9E 35.59%, #002947 99.99%, #002947 100%);
 }
 
 #projectPageContent {
@@ -248,7 +242,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 30px;
+  gap: 50px;
   margin-top: 50px;
 }
 
@@ -270,7 +264,6 @@ body {
   font-style: normal;
   font-weight: 700;
   line-height: normal;
-  text-decoration-line: underline;
   text-align: center;
 }
 
@@ -295,6 +288,10 @@ body {
   border: 2px solid var(--Fancy-Text, #000);
 }
 
+.detailsButton:hover{
+    background-color:#b5b5b5;
+}
+
 .detailsLink {
   text-decoration: none;
   color: black;
@@ -307,7 +304,7 @@ body {
 
 .projectsLinksList {
   position: absolute;
-  top: 160px;
+  top: 290px;
   height: 20px;
   margin-left: 10px;
 }
@@ -319,6 +316,8 @@ body {
   font-style: normal;
   font-weight: 500;
   line-height: normal;
+  display:flex;
+  align-items: center;
 }
 
 #projectBackButton {
