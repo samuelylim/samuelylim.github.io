@@ -206,18 +206,16 @@ body {
   gap: 30px;
 }
 
-#projectsList{
-    width: 100%;
-    height:300px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap:30px;
+#projectsList {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
 }
 
 .project {
-  display: flex;
-  justify-content: center;
   width: 200px;
   height: 270px;
   background-color: #d9d9d9;
@@ -227,8 +225,8 @@ body {
 }
 
 .projectTitle {
-  position: absolute;
-  top: 20px;
+  margin-top: 25px;
+  width: 200px;
   color: black;
   font-family: Fira Code;
   font-size: 18px;
@@ -240,9 +238,22 @@ body {
 }
 
 .projectDescription {
-    position:absolute;
-    top: 50px;
-    width:190px;
-    left:10px;
-    
+  width: 190px;
+  margin-left: 10px;
+  color: black;
+  font-family: Fira Code;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 450;
+  line-height: normal;
+}
+
+.detailsButton{
+    margin-top:-10px;
+    margin-left: 10px;
+    width:60px;
+    height: 20px;
+    border-radius: 20px;
+    text-align: center;
+    border: 2px solid var(--Fancy-Text, #000);
 }
