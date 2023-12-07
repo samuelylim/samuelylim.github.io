@@ -123,7 +123,7 @@ body {
 }
 
 #resumeContent {
-  height: 2000px;
+  height: 1600px;
   background: linear-gradient(
     180deg,
     #007ed9 0%,
@@ -457,12 +457,12 @@ body {
 .resumePageImage {
   width: 270px;
   position: absolute;
-  top: 160px;
+  top: 120px;
   right: 60px;
 }
 
 .resumeTable{
-    
+
     border:3px solid #B9B9B9;
     border-collapse: collapse;
     margin-left: 20px;
@@ -488,4 +488,12 @@ font-style: normal;
 font-weight: 400;
 line-height: 130%; /* 26px */
 min-width: 80px;
+}
+
+#programmingMarquee{
+    overflow:hidden;
+}
+
+#programmingLanguages{
+    height:100px;
 }
