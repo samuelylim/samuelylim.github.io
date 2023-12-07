@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Akshar&family=Fira+Code&family=Karla&family=Yrsa&display=swap');
 #header {
   width: 100%;
   position: fixed;
@@ -46,7 +47,7 @@
 }
 
 #headerRight {
-  margin-right: 100px;
+  margin-right: 150px;
   width: 270px;
   position: fixed;
   top: 0;
